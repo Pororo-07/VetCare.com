@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<!--For responisve	-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<!--Bootstrap CSS-->
+<link rel="stylesheet" href="css/bootstrap.min.css"  type="text/css">
+	
+<!--Style CSS-->
+<link rel="stylesheet" href="css/style.css"  type="text/css">
+<link rel="stylesheet" href="css/profile.css"  type="text/css">
+
+<!--Google Font-->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,800;1,900&display=swap" rel="stylesheet">	
+
+<!--Font awesome icon-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"  />
+	
+</head>
+
+
+<body>
+	
+<!--  Start Header-->
+	<header>
+	    <div class="container">
+		    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+			<!--	<img src="images/logo.png" alt="company name">-->
+				<h1>VetCare</h1>
+				</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    				<ul class="navbar-nav ms-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="main.html" target="_self">Home </a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="message.html" target="_self">Vet Assistant</a>
+						</li>
+							
+						<li class="nav-item">
+							<a class="nav-link" href="pets.html" target="_self">Pets</a>
+						</li>
+							
+						<li class="nav-item">
+							<a class="nav-link" href="vet.html" target="_self">Veterinarians</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="settings.html" target="_self">Settings</a>
+						</li>
+	  					<li class="nav-item">
+        					<a class="nav-link" href="index.html">Log Out</a>
+      					</li>
+    				</ul>
+ 				</div>
+			</nav>
+		</div>
+	</header>
+<!--  End Header-->
+
+<div class="profile-container">
+    <div class="profile">
+        <img src="images/kitty.jpg" alt="Profile Picture" class="profile-pic">
+        <div class="profile-info">
+            <h2 id="userName">User Name</h2>
+            <p id="petInfo">Pet Info</p>
+            <p id="email">Email: </p>
+            <p id="phone">Phone: </p>
+            <p id="address">Address: </p>
+        </div>
+        <a href="settings.html#profile-management" class="edit-profile">Edit Profile</a>
+    </div>
+</div>
+
+<script src="profile.js"></script>
+<script src="js/jquery-3.4.1.min.js" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	
+</body>
+</html>
